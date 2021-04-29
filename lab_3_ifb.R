@@ -30,5 +30,5 @@ mb_shape <- shapefile(here("data", "MorroBay_parcels.shp"))
 merged_shape <- merge(mb_shape, solution, by='id')
 
 # write the merged shp to file
-shapefile(merged_shape, here("data/output/mb_solution.shp"))
+shapefile(merged_shape, here("data/output/mb_solution.shp"), overwrite = TRUE)
 
