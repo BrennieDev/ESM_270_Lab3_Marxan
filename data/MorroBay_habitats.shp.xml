@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>CCWGIS</origin>
+				<pubdate>10/31/2004</pubdate>
+				<title Sync="TRUE">mb_wetlands_and_riparian</title>
+				<edition>1</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>San Luis Obispo County</pubplace>
+					<publish>Morro Bay National Estuary Program</publish>
+				</pubinfo>
+				<othercit>Online_Linkage</othercit>
+				<lworkcit>
+					<citeinfo>
+						<origin>Morro Bay National Estuary Program</origin>
+						<pubdate></pubdate>
+						<title>Morro Bay Watershed Wetland and Riparian Dataset</title>
+						<pubinfo>
+							<pubplace></pubplace>
+							<publish>Morro Bay National Estuary Program</publish>
+						</pubinfo>
+						<onlink></onlink>
+					</citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">mb_wetlands_and_riparian</ftname><onlink Sync="TRUE">\\PC142-045\F$\ccwgis_data\mb_wetlands_and_riparian.shp</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>The Morro Bay Watershed Wetland and Riparian Dataset was created to support the Central Coast Wetlands GIS (CCWGIS). Wetlands were mapped using aerial photograph interpretation and field mapping. Existing datasets for the bay, Chorro Creek, and watershed streams supplemented this work. The aerial photograph interpretation included digitizing wetlands using ArcGIS 8.3 from 2001 and 2003 natural color aerial photography. A subset of these wetlands were ground truthed for horizontal and attribute accuracy.  The Chorro Ecological Reserve, Sharks Inlet, and Walters Creek were field mapped using a sub-meter global positioning system.  All wetlands were classified using Wetlands of the Central and Southern California Coast and Coastal Watersheds: A Methodology for their Classification and Description by Wayne Ferren, Peggy Fiedler, and Rob Leidy.  The ground truthing and field mapping were conducted by the California Conservation Corps GIS team.</abstract>
+			<update>None planned</update>
+			<langdata>English</langdata></descript>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-120.868401</westbc>
+				<eastbc Sync="TRUE">-120.658930</eastbc>
+				<northbc Sync="TRUE">35.415531</northbc>
+				<southbc Sync="TRUE">35.253805</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">693915.487209</leftbc><rightbc Sync="TRUE">712570.548595</rightbc><bottombc Sync="TRUE">3903692.204791</bottombc><topbc Sync="TRUE">3921220.499458</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Wetland</themekey>
+				<themekey>Riparian</themekey>
+				<themekey>Bay</themekey>
+				<themekey>Cowardin</themekey>
+				<themekey>HGM</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>San Luis Obispo County</placekey>
+				<placekey>Morro Bay</placekey>
+				<placekey>Morro Bay Harbor</placekey>
+				<placekey>Baywood Park</placekey>
+				<placekey>Los Osos</placekey>
+				<placekey>Los Osos Valley Road</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The Morro Bay Watershed Wetland and Riparian dataset is not suitable for any regulatory purpose, and should not be the basis for any determination relating to the natural resource characteristics of any particular site or geographic area as well as impact assessment or mitigation.  Please read the CCWGIS Disclaimer for more details (http://www.centralcoastwetlands.org/ccwgis/disclaimer_mb.html).</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Morro Bay National Estuary Program</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>601 Embarcadero, Suite 11</address>
+					<city>Morro Bay</city>
+					<state>CA</state>
+					<postal>93024</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>805.772.3834</cntvoice>
+				<cntfax>805.772.4162</cntfax>
+				<cntemail>www.mbnep.org</cntemail>
+				<hours>M-F 9am-5pm</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+		<timeperd><current>publication date</current><timeinfo><sngdate><caldate>10/31/2004</caldate></sngdate></timeinfo></timeperd><status><progress>Complete</progress><update>None planned</update></status><natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Attributes were based on 2001 and 2003 aerial photography, and conditions witnessed on the ground.  The method used to delineate each polygon is noted in the Source field. The Delineation and Classification fields denote the level of confidence in each with a rating of weak, moderate, or strong.  The level of confidence is subjective and is based on on the confidence of the interpretor.  Ground truthed and field mapped polygons have strong confidence levels.</attraccr>
+		</attracc>
+		<logic>These data are believed to be logically consistent, though no tests were performed.</logic>
+		<complete>The dataset is as complete as the data sources and the skill of the photo interpreters and the CA Conservation Corps GIS team.  Habitats are dynamic and change over time.  The dataset should be updated as needed.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Margin of error has not been quantified. A comparison of aerial photo interpretation and ground truthing results for lower Los Osos Creek revealed that interpretation resulted in 26 polygons including 61.68 acres of wetlands. The ground truthing results for this same area include 29 polygons with 62.89 acres of wetlands. A comparison of aerial photo interpretation and field mapping for Walters Creek revealed that interpretation resulted in 18 polygons including 19.11 acres of wetlands.  The field mapping results for the same area include 44 polygons with 19.81 acres of wetlands.  Both comparisons reveal that the more time-consuming, in the field methods result in higher precision and accuracy for wetland delineation and attribution.  See the CCWGIS final report for more information about these comparative studies.</horizpar>
+			</horizpa>
+			<vertacc><vertaccr>Dataset has no vertical dimension.</vertaccr></vertacc></posacc>
+		<lineage><procstep><procdesc>The Morro Bay Watershed Wetland and Riparian Dataset was created to support the Central Coast Wetlands GIS (CCWGIS). Wetlands were mapped using aerial photograph interpretation and field mapping. Existing datasets for the bay, Chorro Creek, and watershed streams supplemented this work.  All wetlands were classified using Wetlands of the Central and Southern California Coast and Coastal Watersheds: 
+A Methodology for their Classification and Description by Wayne Ferren, Peggy Fiedler, and Rob Leidy.    
+
+Aerial photograph interpretation was performed using ArcGIS 8.3 and the wetlands were heads up digitized from the 2003 orthophotography using a minumum mapping unit of 0.25 acres.  The June 2001 contact prints supplemented the 2003 photography since 2001 was a wetter year and the intent of the dataset was to capture all wetlands.  The Morro Bay streams dataset was used as a starting point for all creeks, except Chorro Creek. The lines were buffered and edited to reflect the creeks depicted on the aerial photography. The Chorro Creek Habitat Typing dataset formed the basis for the Chorro Creek delineation.  The bay and salt marsh were mapped as part of the USACOE Feasibility Study and the polygons were incorporated into the dataset and reclassfieid using Ferren, Fiedler, and Leidy.
+
+The ground truthing and field mapping were conducted by the California Conservation Corps GIS team. Ground truthing was performed in lower and upper Los Osos Creek, Chorro Creek estuarine/riverine transition, and other problem areas throughout the watershed.  This consisted of checking the gross delineation of the area and attribution.  Field mapping was conducted for the Chorro Creek Ecological Reserve, a portion of Sharks Inlet, and Walters Creek. Wetland delineations were mapped with a minumum mapping unit of 0.10 acre and attributed using Ferren, Fiedler, and Leidy. All ground truthing and field mapping was conducted with a sub-meter GPS and the results supersededthe aerial photo interpretation conducted for those areas.
+</procdesc><srcused Sync="TRUE">C:\DOCUME~1\bjclose\LOCALS~1\Temp\xmlD9.tmp</srcused><date Sync="TRUE">20060630</date><time Sync="TRUE">15420900</time><proccont><cntinfo><cntvoice>805.772.3834</cntvoice><cntfax>805.772.4162</cntfax><cntemail>www.mbnep.org</cntemail><cntaddr><address>601 Embarcadero, Suite 11</address><addrtype>mailing and physical address</addrtype><city>Morro Bay</city><state>CA</state><postal>93442</postal><country>USA</country></cntaddr><cntorgp><cntorg>Morro Bay National Estuary Program</cntorg></cntorgp></cntinfo></proccont><procsv>ArcView 3.x and ArcView 8.x</procsv><procdate>2004</procdate></procstep></lineage></dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="habitats_merge_withsoilsandponds"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_UTM_Zone_10N</projcsn></cordsysn><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.000032</absres><ordres Sync="TRUE">0.000032</ordres></coordrep></planci></planar></horizsys>
+	</spref>
+	<eainfo><detailed Name="habitats_merge_withsoilsandponds"><enttyp><enttypl Sync="TRUE">habitats_merge_withsoilsandponds</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OBJECTID_1</attrlabl><attalias Sync="TRUE">OBJECTID_1</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SITE_ID</attrlabl><attalias Sync="TRUE">SITE_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef>Polygon Number</attrdef><attrdefs>Generated as new polygons were created and to track ground truthed and field mapped polygons</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">HGMCODE</attrlabl><attalias Sync="TRUE">HGMCODE</attalias><attrtype Sync="TRUE">SmallInteger</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Number code for Hydrogeomorphic classification</attrdef><attrdefs>Ferren, Fiedler, and Leidy</attrdefs><atprecis Sync="TRUE">4</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">HGM</attrlabl><attalias Sync="TRUE">HGM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">24</attwidth><attrdef>Hydrogeomorphic code descriptor</attrdef><attrdefs>Ferren, Fiedler, and Leidy</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SYSTEM</attrlabl><attalias Sync="TRUE">SYSTEM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">13</attwidth><attrdef>Wetland System</attrdef><attrdefs>Ferren, Fiedler, and Leidy</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SUBSYSTEM</attrlabl><attalias Sync="TRUE">SUBSYSTEM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdef>Wetland Supsystem</attrdef><attrdefs>Ferren, Fiedler, and Leidy</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CLASS</attrlabl><attalias Sync="TRUE">CLASS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdef>Wetland Class</attrdef><attrdefs>Ferren, Fiedler, and Leidy</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LABEL</attrlabl><attalias Sync="TRUE">LABEL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attrdef>Full Code (System, Subsystem, Class)</attrdef><attrdefs>Ferren, Fiedler, and Leidy</attrdefs><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SOURCE</attrlabl><attalias Sync="TRUE">SOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Identifies the source and method for identifying the polygon</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FIELD_CHEC</attrlabl><attalias Sync="TRUE">FIELD_CHEC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Was the polygon and attributes groundtruthed</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DELINEATIO</attrlabl><attalias Sync="TRUE">DELINEATIO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><attrdef>Level of confidence in polygon delineation</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">CLASSIFICA</attrlabl><attalias Sync="TRUE">CLASSIFICA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Level of confidence in polygon attribution</attrdef><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">BUFFERDIST</attrlabl><attalias Sync="TRUE">BUFFERDIST</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">COMMENTS</attrlabl><attalias Sync="TRUE">COMMENTS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SUBCLASS</attrlabl><attalias Sync="TRUE">SUBCLASS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WATER_REGI</attrlabl><attalias Sync="TRUE">WATER_REGI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DOM_PLANT</attrlabl><attalias Sync="TRUE">DOM_PLANT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLANT_TYPE</attrlabl><attalias Sync="TRUE">PLANT_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PERCENTDOM</attrlabl><attalias Sync="TRUE">PERCENTDOM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">13</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DOM_PLANT2</attrlabl><attalias Sync="TRUE">DOM_PLANT2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLANT_TYP2</attrlabl><attalias Sync="TRUE">PLANT_TYP2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PERCENTDO2</attrlabl><attalias Sync="TRUE">PERCENTDO2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DOM_PLANT3</attrlabl><attalias Sync="TRUE">DOM_PLANT3</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">40</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLANT_TYP3</attrlabl><attalias Sync="TRUE">PLANT_TYP3</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PERCENTDO3</attrlabl><attalias Sync="TRUE">PERCENTDO3</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DOM_PLANT4</attrlabl><attalias Sync="TRUE">DOM_PLANT4</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">22</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLANT_TYP4</attrlabl><attalias Sync="TRUE">PLANT_TYP4</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PERCENTDO4</attrlabl><attalias Sync="TRUE">PERCENTDO4</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DOM_PLANT5</attrlabl><attalias Sync="TRUE">DOM_PLANT5</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">26</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLANT_TYP5</attrlabl><attalias Sync="TRUE">PLANT_TYP5</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PERCENTDO5</attrlabl><attalias Sync="TRUE">PERCENTDO5</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PHOTOS</attrlabl><attalias Sync="TRUE">PHOTOS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">GPS_DATE</attrlabl><attalias Sync="TRUE">GPS_DATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">LOCATION</attrlabl><attalias Sync="TRUE">LOCATION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PERIMETER</attrlabl><attalias Sync="TRUE">PERIMETER</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AREA</attrlabl><attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ACRES</attrlabl><attalias Sync="TRUE">ACRES</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">HECTARES</attrlabl><attalias Sync="TRUE">HECTARES</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Type</attrlabl><attalias Sync="TRUE">Type</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">AREASYMBOL</attrlabl><attalias Sync="TRUE">AREASYMBOL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SPATIALVER</attrlabl><attalias Sync="TRUE">SPATIALVER</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MUSYM</attrlabl><attalias Sync="TRUE">MUSYM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MUKEY</attrlabl><attalias Sync="TRUE">MUKEY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">REGION</attrlabl><attalias Sync="TRUE">REGION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">21</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">COMPNAME</attrlabl><attalias Sync="TRUE">COMPNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">17</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SOIL_NAME</attrlabl><attalias Sync="TRUE">SOIL_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">64</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ERODBLTY</attrlabl><attalias Sync="TRUE">ERODBLTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">EROD_TEXT</attrlabl><attalias Sync="TRUE">EROD_TEXT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WIND_EROD</attrlabl><attalias Sync="TRUE">WIND_EROD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DRAINAGE</attrlabl><attalias Sync="TRUE">DRAINAGE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHRK_SWEL</attrlabl><attalias Sync="TRUE">SHRK_SWEL</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SW_TEXT</attrlabl><attalias Sync="TRUE">SW_TEXT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">HYDRCRATNG</attrlabl><attalias Sync="TRUE">HYDRCRATNG</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SOIL_QUAL</attrlabl><attalias Sync="TRUE">SOIL_QUAL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">37</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">NIRRCAPCL</attrlabl><attalias Sync="TRUE">NIRRCAPCL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">13</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">NIRRCAPSCL</attrlabl><attalias Sync="TRUE">NIRRCAPSCL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">13</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">IRRCAPCL</attrlabl><attalias Sync="TRUE">IRRCAPCL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">13</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">IRRCAPSCL</attrlabl><attalias Sync="TRUE">IRRCAPSCL</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">13</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FARM_CLASS</attrlabl><attalias Sync="TRUE">FARM_CLASS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">95</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">STORIE</attrlabl><attalias Sync="TRUE">STORIE</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Septic</attrlabl><attalias Sync="TRUE">Septic</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">150</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">GEO_TYPE</attrlabl><attalias Sync="TRUE">GEO_TYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">COUNT</attrlabl><attalias Sync="TRUE">COUNT</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Id</attrlabl><attalias Sync="TRUE">Id</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FID_CoastD</attrlabl><attalias Sync="TRUE">FID_CoastD</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FID_Habita</attrlabl><attalias Sync="TRUE">FID_Habita</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">HabType</attrlabl><attalias Sync="TRUE">HabType</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FID_mb_bou</attrlabl><attalias Sync="TRUE">FID_mb_bou</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">MB_BOUND_I</attrlabl><attalias Sync="TRUE">MB_BOUND_I</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">FID_Coast</attrlabl><attalias Sync="TRUE">FID_Coast</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DomVeg</attrlabl><attalias Sync="TRUE">DomVeg</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Associate1</attrlabl><attalias Sync="TRUE">Associate1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape_Le_1</attrlabl><attalias Sync="TRUE">Shape_Le_1</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Id_1</attrlabl><attalias Sync="TRUE">Id_1</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">9</attwidth><atprecis Sync="TRUE">9</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">DomVeg_1</attrlabl><attalias Sync="TRUE">DomVeg_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Associat_1</attrlabl><attalias Sync="TRUE">Associat_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Le_2</attrlabl><attalias Sync="TRUE">Shape_Le_2</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Ar_1</attrlabl><attalias Sync="TRUE">Shape_Ar_1</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Morro Bay National Estuary Program</cntorg>
+					<cntper></cntper>
+				</cntorgp>
+				<cntpos></cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>601 Embarcadero, Suite 11</address>
+					<city>Morro Bay</city>
+					<state>CA</state>
+					<postal>93024</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>805.772.3834</cntvoice>
+				<cntfax>805.772.4162</cntfax>
+				<cntemail>www.mbnep.org</cntemail>
+				<hours>M-F 9am-5pm</hours>
+			</cntinfo>
+		</distrib>
+		<stdorder><digform><digtinfo><transize Sync="TRUE">5.127</transize><dssize Sync="TRUE">5.127</dssize></digtinfo></digform></stdorder><resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo>
+	<metainfo>
+		<metd>2004</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Morro Bay National Estuary Program</cntorg>
+					<cntper></cntper>
+				</cntorgp>
+				<cntpos></cntpos>
+				<cntaddr>
+					<addrtype>Mailing and physical address</addrtype>
+					<address>601 Embarcadero, Suite 11</address>
+					<city>Morro Bay</city>
+					<state>CA</state>
+					<postal>93024</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>805.772.3834</cntvoice>
+				<cntfax>805.772.4162</cntfax>
+				<cntemail>www.mbnep.org</cntemail>
+				<hours>M-F 9am-5pm</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<langmeta>English</langmeta><mettc Sync="TRUE">local time</mettc></metainfo>
+Morro Bay Watershed Wetland and Riparian DatasetMorro Bay Watershed Wetland and
+Riparian Dataset
+Table of Contents
+Identification Information
+Data Quality Information
+Spatial Data Organization Information
+Spatial Reference Information
+Entity and Attribute Information
+Distribution Information
+<metadata>Reference Information</metadata>
+Top
+for more information about these comparative studies.
+<lineage>
+		<srcinfo>
+			<srccite>
+				<citeinfo>
+					<origin>CA Coastal Commission</origin>
+					<pubdate>June 2001</pubdate>
+					<title>2001 1:12,000 Natural Color Contact Prints</title>
+					<edition></edition>
+					<geoform>Contact Prints</geoform>
+					<pubinfo>
+						<pubplace>San Francisco, CA</pubplace>
+						<publish>CA Coastal Commission</publish>
+					</pubinfo>
+					<othercit></othercit>
+					<onlink></onlink>
+					<lworkcit>
+						<citeinfo>
+							<origin>CA Dept. of Boating and Waterways</origin>
+							<pubdate>June 2001</pubdate>
+							<title>2001 1:12,000 Natural Color Contact Prints</title>
+							<pubinfo>
+								<pubplace>San Francisco, CA</pubplace>
+								<publish>CA Dept. of Boating and Waterways</publish>
+							</pubinfo>
+							<onlink></onlink>
+						</citeinfo>
+					</lworkcit>
+				</citeinfo>
+			</srccite>
+			<srcscale></srcscale>
+			<typesrc>Contact prints</typesrc>
+			<srctime>
+				<timeinfo>
+					<rngdates>
+						<begdate></begdate>
+						<enddate></enddate>
+					</rngdates>
+				</timeinfo>
+				<srccurr></srccurr>
+			</srctime>
+			<srccitea></srccitea>
+			<srccontr></srccontr>
+		</srcinfo>
+		<srcinfo>
+			<srccite>
+				<citeinfo>
+					<origin>San Luis Obispo County Planning Department</origin>
+					<pubdate>2004</pubdate>
+					<title>July 2003 San Luis Obispo Orthophotography</title>
+					<edition></edition>
+					<geoform>Orthophotography</geoform>
+					<pubinfo>
+						<pubplace>San Luis Obispo, CA</pubplace>
+						<publish>San Luis Obispo County Planning Department</publish>
+					</pubinfo>
+					<othercit></othercit>
+					<onlink></onlink>
+					<lworkcit>
+						<citeinfo>
+							<origin></origin>
+							<pubdate></pubdate>
+							<title></title>
+							<pubinfo>
+								<pubplace></pubplace>
+								<publish></publish>
+							</pubinfo>
+							<onlink></onlink>
+						</citeinfo>
+					</lworkcit>
+				</citeinfo>
+			</srccite>
+			<srcscale>One foot resolution</srcscale>
+			<typesrc>Orthophotography</typesrc>
+			<srctime>
+				<timeinfo>
+					<rngdates>
+						<begdate></begdate>
+						<enddate></enddate>
+					</rngdates>
+				</timeinfo>
+				<srccurr></srccurr>
+			</srctime>
+			<srccitea></srccitea>
+			<srccontr></srccontr>
+		</srcinfo>
+		<srcinfo>
+			<srccite>
+				<citeinfo>
+					<origin>CA Conservation Corps</origin>
+					<pubdate>2004</pubdate>
+					<title>ccc_data_grnd_field.shp</title>
+					<edition>1</edition>
+					<geoform>shapefile</geoform>
+					<pubinfo>
+						<pubplace>San Luis Obispo, CA</pubplace>
+						<publish>CA Conservation Corps</publish>
+					</pubinfo>
+					<othercit></othercit>
+					<onlink></onlink>
+					<lworkcit>
+						<citeinfo>
+							<origin>CA Conservation Corps</origin>
+							<pubdate>2004</pubdate>
+							<title>CCWGIS</title>
+							<pubinfo>
+								<pubplace>San Luis Obispo, CA</pubplace>
+								<publish></publish>
+							</pubinfo>
+							<onlink></onlink>
+						</citeinfo>
+					</lworkcit>
+				</citeinfo>
+			</srccite>
+			<srcscale></srcscale>
+			<typesrc>shapefile</typesrc>
+			<srctime>
+				<timeinfo>
+					<rngdates>
+						<begdate>2003</begdate>
+						<enddate>2004</enddate>
+					</rngdates>
+				</timeinfo>
+				<srccurr></srccurr>
+			</srctime>
+			<srccitea></srccitea>
+			<srccontr></srccontr>
+		</srcinfo>
+		<srcinfo>
+			<srccite>
+				<citeinfo>
+					<origin>CA Conservation Corps</origin>
+					<pubdate>2003</pubdate>
+					<title>Chorro Creek Habitat Typing</title>
+					<edition></edition>
+					<geoform>shapefile</geoform>
+					<pubinfo>
+						<pubplace>San Luis Obispo, CA</pubplace>
+						<publish>CA Conservation Corps</publish>
+					</pubinfo>
+					<othercit></othercit>
+					<onlink></onlink>
+					<lworkcit>
+						<citeinfo>
+							<origin></origin>
+							<pubdate></pubdate>
+							<title></title>
+							<pubinfo>
+								<pubplace></pubplace>
+								<publish></publish>
+							</pubinfo>
+							<onlink></onlink>
+						</citeinfo>
+					</lworkcit>
+				</citeinfo>
+			</srccite>
+			<srcscale></srcscale>
+			<typesrc></typesrc>
+			<srctime>
+				<timeinfo>
+					<rngdates>
+						<begdate></begdate>
+						<enddate></enddate>
+					</rngdates>
+				</timeinfo>
+				<srccurr></srccurr>
+			</srctime>
+			<srccitea></srccitea>
+			<srccontr></srccontr>
+		</srcinfo>
+		<srcinfo>
+			<srccite>
+				<citeinfo>
+					<origin>Cal Poly, San Luis Obispo Landscape Architechture Dept.</origin>
+					<pubdate>2004</pubdate>
+					<title>mb_strms</title>
+					<edition></edition>
+					<geoform>shapefile</geoform>
+					<pubinfo>
+						<pubplace>San Luis Obispo, CA</pubplace>
+						<publish>Cal Poly, San Luis Obispo Landscape Architechture Dept.</publish>
+					</pubinfo>
+					<othercit></othercit>
+					<onlink></onlink>
+					<lworkcit>
+						<citeinfo>
+							<origin></origin>
+							<pubdate></pubdate>
+							<title></title>
+							<pubinfo>
+								<pubplace></pubplace>
+								<publish></publish>
+							</pubinfo>
+							<onlink></onlink>
+						</citeinfo>
+					</lworkcit>
+				</citeinfo>
+			</srccite>
+			<srcscale></srcscale>
+			<typesrc>USGS quadrangles</typesrc>
+			<srctime>
+				<timeinfo>
+					<rngdates>
+						<begdate></begdate>
+						<enddate></enddate>
+					</rngdates>
+				</timeinfo>
+				<srccurr></srccurr>
+			</srctime>
+			<srccitea></srccitea>
+			<srccontr></srccontr>
+		</srcinfo>
+		<srcinfo>
+			<srccite>
+				<citeinfo>
+					<origin>CA Conservation Corps</origin>
+					<pubdate>2003</pubdate>
+					<title>USACOE Morro Bay Feasibility Study</title>
+					<edition></edition>
+					<geoform>shapefile</geoform>
+					<pubinfo>
+						<pubplace>San Luis Obispo, CA</pubplace>
+						<publish>CA Conservation Corps</publish>
+					</pubinfo>
+					<othercit></othercit>
+					<onlink></onlink>
+					<lworkcit>
+						<citeinfo>
+							<origin></origin>
+							<pubdate></pubdate>
+							<title></title>
+							<pubinfo>
+								<pubplace></pubplace>
+								<publish></publish>
+							</pubinfo>
+							<onlink></onlink>
+						</citeinfo>
+					</lworkcit>
+				</citeinfo>
+			</srccite>
+			<srcscale></srcscale>
+			<typesrc></typesrc>
+			<srctime>
+				<timeinfo>
+					<rngdates>
+						<begdate></begdate>
+						<enddate></enddate>
+					</rngdates>
+				</timeinfo>
+				<srccurr></srccurr>
+			</srctime>
+			<srccitea></srccitea>
+			<srccontr></srccontr>
+		</srcinfo>
+		<procstep>
+			<procdesc></procdesc>
+			<srcused></srcused>
+			<procdate>2004</procdate>
+			<srcprod></srcprod>
+			<proccont>
+				<cntinfo>
+					<cntperp>
+						<cntper></cntper>
+						<cntorg>Morro Bay National Estuary Program</cntorg>
+					</cntperp>
+					<cntpos></cntpos>
+					<cntaddr>
+						<addrtype>mailing and physical address</addrtype>
+						<address>601 Embarcadero, Suite 11</address>
+						<city>Morro Bay</city>
+						<state>CA</state>
+						<postal>93024</postal>
+						<country>USA</country>
+					</cntaddr>
+					<cntvoice>805.772.3834</cntvoice>
+					<cntfax>805.772.4162</cntfax>
+					<cntemail>www.mbnep.org</cntemail>
+					<hours>M-F 9am-5pm</hours>
+				</cntinfo>
+			</proccont>
+The Morro Bay Watershed Wetland and Riparian Dataset was created to
+support the Central Coast Wetlands GIS (CCWGIS). Wetlands
+were mapped using aerial photograph interpretation and field mapping.
+Existing datasets for the bay, Chorro Creek, and watershed streams
+supplemented this work.  All wetlands were classified using Wetlands of
+the Central and Southern California Coast and Coastal Watersheds:
+A Methodology for their Classification and Description
+by Wayne Ferren, Peggy Fiedler, and Rob Leidy.
+
+Aerial photograph interpretation was performed using ArcGIS 8.3 and the wetlands were heads up
+digitized from the 2003 orthophotography using a minumum mapping unit of 0.25 acres.  The June
+2001 contact prints supplemented the 2003 photography since 2001 was a wetter year and the intent
+of the dataset was to capture all wetlands.  The Morro Bay streams dataset was used as a starting
+point for all creeks, except Chorro Creek. The lines were buffered and edited to reflect the creeks
+depicted on the aerial photography. The Chorro Creek Habitat Typing dataset formed the basis for
+the Chorro Creek delineation.  The bay and salt marsh were mapped as part of the USACOE Feasibility
+Study and the polygons were incorporated into the dataset and reclassfieid using Ferren, Fiedler, and Leidy.
+
+The ground truthing and field mapping were conducted by the California Conservation Corps GIS team. Ground truthing was performed in lower and upper Los Osos Creek, Chorro Creek estuarine/
+riverine transition, and other problem areas throughout the watershed.  This consisted of checking
+the gross delineation of the area and attribution.  Field mapping was conducted for the Chorro
+Creek Ecological Reserve, a portion of Sharks Inlet, and Walters Creek. Wetland delineations were
+mapped with a minumum mapping unit of 0.10 acre and attributed using Ferren, Fiedler, and Leidy.
+All ground truthing and field mapping was conducted with a sub-meter GPS and the results superseded
+the aerial photo interpretation conducted for those areas.
+</procstep>
+	</lineage>
+Top
+Top
+Top
+<detailed>
+		<enttyp>
+			<enttypl>mb_wetlands and riparian.dbf</enttypl>
+			<enttypd>Shapefile Attribute Table</enttypd>
+			<enttypds>None</enttypds>
+		</enttyp>
+		<attr>
+			<attrlabl>Site ID</attrlabl>
+			<attrdef>Polygon number</attrdef>
+			<attrdefs>Generated as new polygons were created and to track ground truthed and field mapped polygons</attrdefs>
+			<attrdomv>
+				<udom>Number Field</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>HGMCODE</attrlabl>
+			<attrdef>Number code for Hydrogeomorphic classification</attrdef>
+			<attrdefs>Ferren, Fiedler, and Leidy</attrdefs>
+			<attrdomv>
+				<udom>Character Field</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>HGM</attrlabl>
+			<attrdef>Hydrogeomorphic code descriptor</attrdef>
+			<attrdefs>Ferren, Fiedler, and Leidy</attrdefs>
+			<attrdomv>
+				<udom>Character Field</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>System</attrlabl>
+			<attrdef>Wetland System</attrdef>
+			<attrdefs>Ferren, Fiedler, and Leidy</attrdefs>
+			<attrdomv>
+				<udom>Character Field</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Subsystem</attrlabl>
+			<attrdef>Wetland Subsystem</attrdef>
+			<attrdefs>Ferren, Fiedler, and Leidy</attrdefs>
+			<attrdomv>
+				<udom>Character Field</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Class</attrlabl>
+			<attrdef>Wetland Class</attrdef>
+			<attrdefs>Ferren, Fiedler, and Leidy</attrdefs>
+			<attrdomv>
+				<udom>Character Field</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Source</attrlabl>
+			<attrdef>Identifies the source and method for identifying the polygon</attrdef>
+			<attrdefs></attrdefs>
+			<attrdomv>
+				<udom>Character Field</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Delineation</attrlabl>
+			<attrdef>Level of confidence in polygon delineation</attrdef>
+			<attrdefs></attrdefs>
+			<attrdomv>
+				<udom>Character Field</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Classification</attrlabl>
+			<attrdef>Level of confidence in polygon attribution</attrdef>
+			<attrdefs></attrdefs>
+			<attrdomv>
+				<udom>Character Field</udom>
+			</attrdomv>
+		</attr>
+		<attr>
+			<attrlabl>Acreage</attrlabl>
+			<attrdef></attrdef>
+			<attrdefs></attrdefs>
+			<attrdomv>
+				<udom>Number Field</udom>
+			</attrdomv>
+		</attr>
+	</detailed>
+	<overview>
+		<eaover></eaover>
+		<eadetcit></eadetcit>
+	</overview>
+Top
+Top
+Top
+<Esri><CreaDate>20150130</CreaDate><CreaTime>16134200</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20141204</SyncDate><SyncTime>02002000</SyncTime><ModDate>20141204</ModDate><ModTime>02002000</ModTime><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\babylon\GroupProjects2015\morrowatershed\Ben's Files\habitats_merge_withsoilsandponds</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemName Sync="TRUE">habitats_merge_withsoilsandponds</itemName><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">693915.487200</westBL><eastBL Sync="TRUE">712570.548600</eastBL><southBL Sync="TRUE">3903692.204800</southBL><northBL Sync="TRUE">3921220.499500</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">0.000</itemSize></itemProps><copyHistory><copy source="G:\GISData\GP Generated GIS Data\Species\habitats_merge_withsoilsandponds" dest="\\babylon\GroupProjects2015\morrowatershed\Ben's Files\habitats_merge_withsoilsandponds" date="20150130" time="16134200"></copy></copyHistory><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">NAD_1983_UTM_Zone_10N</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_10N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-123.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26910]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26910&lt;/WKID&gt;&lt;LatestWKID&gt;26910&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.1\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20131220" Time="144524">FeatureClassToFeatureClass "C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp" "C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\GIS_Data_Library\Inland_Water_Resources.gdb" Wetlands_and_Riparian_Survey # "OBJECTID_1 "OBJECTID_1" true true false 9 Long 0 9 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,OBJECTID_1,-1,-1;SITE_ID "SITE_ID" true true false 12 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,SITE_ID,-1,-1;HGMCODE "HGMCODE" true true false 4 Short 0 4 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,HGMCODE,-1,-1;HGM "HGM" true true false 24 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,HGM,-1,-1;SYSTEM "SYSTEM" true true false 13 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,SYSTEM,-1,-1;SUBSYSTEM "SUBSYSTEM" true true false 30 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,SUBSYSTEM,-1,-1;CLASS "CLASS" true true false 30 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,CLASS,-1,-1;LABEL "LABEL" true true false 20 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,LABEL,-1,-1;SOURCE "SOURCE" true true false 50 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,SOURCE,-1,-1;FIELD_CHEC "FIELD_CHEC" true true false 50 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,FIELD_CHEC,-1,-1;DELINEATIO "DELINEATIO" true true false 25 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,DELINEATIO,-1,-1;CLASSIFICA "CLASSIFICA" true true false 50 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,CLASSIFICA,-1,-1;BUFFERDIST "BUFFERDIST" true true false 19 Double 11 18 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,BUFFERDIST,-1,-1;COMMENTS "COMMENTS" true true false 100 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,COMMENTS,-1,-1;SUBCLASS "SUBCLASS" true true false 12 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,SUBCLASS,-1,-1;WATER_REGI "WATER_REGI" true true false 25 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,WATER_REGI,-1,-1;DOM_PLANT "DOM_PLANT" true true false 40 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,DOM_PLANT,-1,-1;PLANT_TYPE "PLANT_TYPE" true true false 15 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PLANT_TYPE,-1,-1;PERCENTDOM "PERCENTDOM" true true false 13 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PERCENTDOM,-1,-1;DOM_PLANT2 "DOM_PLANT2" true true false 40 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,DOM_PLANT2,-1,-1;PLANT_TYP2 "PLANT_TYP2" true true false 15 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PLANT_TYP2,-1,-1;PERCENTDO2 "PERCENTDO2" true true false 15 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PERCENTDO2,-1,-1;DOM_PLANT3 "DOM_PLANT3" true true false 40 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,DOM_PLANT3,-1,-1;PLANT_TYP3 "PLANT_TYP3" true true false 15 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PLANT_TYP3,-1,-1;PERCENTDO3 "PERCENTDO3" true true false 15 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PERCENTDO3,-1,-1;DOM_PLANT4 "DOM_PLANT4" true true false 22 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,DOM_PLANT4,-1,-1;PLANT_TYP4 "PLANT_TYP4" true true false 15 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PLANT_TYP4,-1,-1;PERCENTDO4 "PERCENTDO4" true true false 15 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PERCENTDO4,-1,-1;DOM_PLANT5 "DOM_PLANT5" true true false 26 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,DOM_PLANT5,-1,-1;PLANT_TYP5 "PLANT_TYP5" true true false 15 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PLANT_TYP5,-1,-1;PERCENTDO5 "PERCENTDO5" true true false 15 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PERCENTDO5,-1,-1;PHOTOS "PHOTOS" true true false 10 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PHOTOS,-1,-1;GPS_DATE "GPS_DATE" true true false 11 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,GPS_DATE,-1,-1;LOCATION "LOCATION" true true false 20 Text 0 0 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,LOCATION,-1,-1;PERIMETER "PERIMETER" true true false 19 Double 11 18 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,PERIMETER,-1,-1;AREA "AREA" true true false 19 Double 11 18 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,AREA,-1,-1;ACRES "ACRES" true true false 19 Double 11 18 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,ACRES,-1,-1;HECTARES "HECTARES" true true false 19 Double 11 18 ,First,#,C:\Users\Geoventure\Documents\MBNEP_GIS Services\GIS_data\Final\Riparian and Wetland\wetlands_and_riparian.shp,HECTARES,-1,-1" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20141204" Time="015916">CalculateField Ponds Type "Ponds" VB #</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">habitats_merge_withsoilsandponds</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">693915.487209</westBL><eastBL Sync="TRUE">712570.548595</eastBL><northBL Sync="TRUE">3921220.499458</northBL><southBL Sync="TRUE">3903692.204791</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-120.868401</westBL><eastBL Sync="TRUE">-120.65893</eastBL><northBL Sync="TRUE">35.415531</northBL><southBL Sync="TRUE">35.253805</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-120.868401</westBL><eastBL Sync="TRUE">-120.658930</eastBL><northBL Sync="TRUE">35.415531</northBL><southBL Sync="TRUE">35.253805</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\PC142-045\F$\ccwgis_data\mb_wetlands_and_riparian.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">5.127</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" value="26910" code="26910">NAD_1983_UTM_Zone_10N</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.2.6</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="habitats_merge_withsoilsandponds"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20141204</mdDateSt></metadata>

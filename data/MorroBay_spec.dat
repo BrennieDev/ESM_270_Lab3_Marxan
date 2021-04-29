@@ -1,0 +1,141 @@
+id	target	spf	name
+601	23.4	200	Rana draytonii
+101	91.5	200	Selasphorus sasin
+102	1.5	200	Falco peregrinus anatum
+103	4.5	200	Pelecanus erythrorhynchos
+104	1.5	200	Synthliboramphus antiquus
+105	8.7	200	Haematopus bachmani
+106	4.5	200	Rynchops niger
+107	7.5	200	Arenaria melanocephala
+108	4.2	200	Branta bernicla
+109	7.2	200	Athene cunicularia
+110	2.7	200	Laterallus jamaicensis coturniculus
+111	5.4	200	Pelecanus occidentalis californicus
+112	0	200	Rallus longirostris obsoletus
+113	33	200	Larus californicus
+114	0.6	200	Eremophila alpestris actia
+115	38.7	200	Strix occidentalis occidentalis
+116	105.9	200	Toxostoma redivivum
+117	1.5	200	Ptychoramphus aleuticus
+118	4.5	200	Gavia immer
+119	22.2	200	Accipiter cooperii
+120	7.5	200	Phalacrocorax auritus
+121	7.5	200	Sterna elegans
+122	176.4	200	Buteo regalis
+123	6	200	Aquila chrysaetos
+124	2.1	200	Histrionicus histrionicus
+125	10.8	200	Larus heermanni
+126	8.4	200	Passerculus sandwichensis rostratus
+127	0	200	Ixobrychus exilis
+128	135.6	200	Lanius ludovicianus
+129	7.5	200	Numenius americanus
+130	7.5	200	Limosa fedoa
+131	1.5	200	Brachyramus marmoratus
+132	188.4	200	Falco columbarius
+133	185.1	200	Circus cyaneus
+134	105.9	200	Baeolophus inornatus
+135	12.9	200	Contopus cooperi
+136	67.8	200	Pandion haliaetus
+137	173.1	200	Falco mexicanus
+138	143.4	200	Progne subis
+139	1.5	200	Cerorhinca monocerata
+140	7.5	200	Calidris alba
+141	200.1	200	Accipiter striatus
+142	6.3	200	Limnodromus griseus
+143	1.8	200	Agelaius tricolor
+144	1.5	200	Charadrius alexandrinus nivosus
+145	1.8	200	Numenius phaeopus
+146	2.7	200	Elanus leucurus
+147	148.2	200	Empidonax traillii 
+148	105.9	200	Chamaea fasciata
+149	105.9	200	Dendroica petechia
+301	37.2	200	Oncorhynchus mykiss irideus
+302	5.1	200	Eucyclogobius newberryi
+701	16.8	200	Helminthoglypta walkeriana
+702	0.3	200	Cicindela hirticollis gravida
+703	1.5	200	Coelus globosus
+704	0	200	Polyphylla species novae 'morroensis'
+705	2.4	200	Plebejus icarioides moroensis
+706	2.4	200	Danaus plexippus
+801	0.3	200	Taxidea taxus
+802	47.4	200	Nyctinomops macrotis
+803	0	200	Zalophus californianus
+804	145.8	200	Myotis thysanodes
+805	5.4	200	Phoca vitulina
+806	143.1	200	Myotis evotis
+807	85.2	200	Myotis volans
+808	23.1	200	Dipodomys heermanni morroensis
+809	1.5	200	Callorhinus ursinus
+810	2.4	200	Antrozous pallidus
+811	2.1	200	Enhydra lutris nereis
+812	1.5	200	Eumetopias jubatus
+813	0.9	200	Corynorhinus townsendii
+814	54	200	Lasiurus blossevillii
+815	103.8	200	Myotis ciliolabrum
+816	84.9	200	Myotis yumanensis
+201	0	200	Arctostaphylos cruzensis
+202	1.2	200	Dithyrea maritima
+203	1.2	200	Dudleya abramsii bettinae
+204	4.2	200	Dudleya blochmaniae blochmaniae
+205	1.5	200	Erigeron blochmaniae
+206	6.3	200	Chorizanthe breweri
+207	0.3	200	Linderiella occidentalis
+208	8.1	200	Calystegia subacaulis episcopalis
+209	6.6	200	Suaeda californica
+210	0	200	Malacothamnus palmeri var. involucratus
+211	0.3	200	Senecio aphanactis
+212	1.5	200	Nemacaulis denudata var. denudata
+213	0.3	200	Chenopodium littoreum
+214	1.5	200	Centromadia parryi ssp. congdonii
+215	1.5	200	Lasthenia glabrata ssp. coulteri
+216	1.8	200	Sidalcea hickmanii ssp. anomala
+217	0.9	200	Cirsium occidentale var. lucianum
+218	0.3	200	Arctostaphylos tomentosa daciticola
+219	0.6	200	Chlorogalum pomeridianum var. minus
+220	3.6	200	Delphinium parryi ssp. eastwoodiae
+221	0.6	200	Camissoniopsis hardhamiae
+222	1.2	200	Eriodictyon altissimum
+223	0.6	200	Layia jonesii
+224	0.6	200	Calochortus simulans
+225	0.9	200	Arenaria paludicola
+226	0	200	Horkelia cuneata var. puberula
+227	0	200	Astragalus didymocarpus var. milesianus
+228	16.5	200	Arctostaphylos morroensis
+229	0.6	200	Streptanthus albidus ssp. peramoenus
+230	4.8	200	Dudleya abramsii ssp. murina
+231	5.1	200	Castilleja densiflora obispoensis
+232	4.2	200	Arctostaphylos osoensis
+233	2.1	200	Monardella palmeri
+234	3.6	200	Arctostaphylos pechoensis
+235	3	200	Cordylanthus maritimus maritimus
+236	2.1	200	Chloropyron maritimum ssp. maritimum
+237	0	200	Fritillaria viridea
+238	0	200	Atriplex joaquinana
+239	6.6	200	Calochortus obispoensis
+240	2.1	200	Cirsium fontinale var. obispoense
+241	0	200	Pyrgulopsis taylori
+242	2.7	200	Carex obispoensis
+243	1.8	200	Arctostaphylos luciana
+244	0	200	Arctostaphylos pilosula
+245	4.8	200	Monardella sinuata ssp. sinuata
+247	0.9	200	Cladonia firma
+248	0.9	200	Hypogymia mollis
+249	6.9	200	Parmotrema hypoleucinum
+250	6.9	200	Sulcaria isidiifera
+251	0	200	Niebla tuberculata
+246	0	200	Sanicula maritima
+501	52.2	200	Phrynosoma coronatum frontale
+502	1.5	200	Anniella pulchra pulchra
+503	11.1	200	Actinemys marmorata
+901	11.6	200	coastal scrub
+902	20.5	200	maritime chaparral 
+903	14.1	200	oak woodland
+904	1.8	200	coastal salt marsh
+905	9	200	freshwater marsh
+906	22.7	200	riparian scrub
+907	18.5	200	riparian woodland
+908	13.1	200	baywood fine sands
+909	17	200	serpentine
+910	4.7	200	ponds
+911	0.5	200	pioneer dune
+912	0.5	200	coastal dune scrub
