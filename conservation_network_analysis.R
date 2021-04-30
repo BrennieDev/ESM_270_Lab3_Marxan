@@ -37,7 +37,7 @@ run_marxan_problem <- function(pu_data, sp_data, puvspr_data, outfile) {
 }
 
 # Run analysis using base Morro Bay data with no alterations
-run_marxan_problem(pu_data, sp_data, puvspr_data, here("data/output", "mb_solution_base.shp"))
+run_marxan_problem(pu_data, sp_data, puvspr_data, here("data/output", "mb_solution_base1.shp"))
 
 # Run analysis using different inputs
 # Read in species status data
@@ -58,8 +58,12 @@ sp_g_rank <- sp_merged %>%
   rename(name = name.x) %>% 
   select(colnames(sp_data))
 
+# Set status of all planning units to be available (status 0)
+pu_open <- pu_data %>% 
+  mutate(status = 0)
+
 # Run using all eligible parcels and spf based on global ranks
-run_marxan_problem(pu_open, sp_g_rank, puvspr_data, here("data/output", "mb_global_solution.shp"))
+run_marxan_problem(pu_open, sp_g_rank, puvspr_data, here("data/output", "mb_global_solution1.shp"))
 
 # Set up weighted species penalty scores based on Subnational rank
 sp_s_rank <- sp_merged %>%
@@ -74,4 +78,4 @@ sp_s_rank <- sp_merged %>%
   select(colnames(sp_data))
 
 # Run using all eligible parcels and spf based on subnational ranks
-run_marxan_problem(pu_open, sp_s_rank, puvspr_data, here("data/output", "mb_subnational_solution.shp"))
+run_marxan_problem(pu_open, sp_s_rank, puvspr_data, here("data/output", "mb_subnational_solution1.shp"))
