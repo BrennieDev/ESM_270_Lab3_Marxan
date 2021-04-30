@@ -16,7 +16,7 @@ read_dat <- function(path) {
 
 # Read in .dat files
 pu_data <- read_dat(here("data", "MorroBay_pu.dat"))
-sp_data <- read_dat(here("data", "MorroBay_spec.dat")) %>% rename(sp_data, amount = target)
+sp_data <- read_dat(here("data", "MorroBay_spec.dat")) %>% rename(amount = target)
 puvspr_data <- read_dat(here("data", "MorroBay_puvspr.dat"))
 #bound_data <- read_dat(here("data", "MorroBay_bound.dat"))
 
@@ -49,9 +49,9 @@ sp_merged <- merge(sp_data, sp_status, by='id')
 # Set up weighted species penalty scores based on Global rank
 sp_g_rank <- sp_merged %>%
   mutate(spf = case_when(
-    str_detect(status, "G1") ~ 200,
-    str_detect(status, "G2") ~ 150,
-    str_detect(status, "G3") ~ 100,
+    str_detect(status, "G1") ~ 500,
+    str_detect(status, "G2") ~ 400,
+    str_detect(status, "G3") ~ 250,
     str_detect(status, "G4") ~ 50,
     TRUE ~ 0
     )) %>% 
